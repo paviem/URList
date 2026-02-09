@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URList - URL Extractor</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>URList</h1>
+            <div class="stats">
+                <span id="link-count">0 links found</span>
+            </div>
+        </header>
+        
+        <div class="controls">
+            <input type="text" id="search" placeholder="Search links..." class="search-box">
+            
+            <div class="toggles">
+                <label class="toggle">
+                    <input type="checkbox" id="remove-duplicates">
+                    <span>Remove duplicates</span>
+                </label>
+                <label class="toggle">
+                    <input type="checkbox" id="unique-domains">
+                    <span>Show unique domains only</span>
+                </label>
+                <label class="toggle">
+                    <input type="checkbox" id="include-non-http">
+                    <span>Include mailto/tel/javascript</span>
+                </label>
+            </div>
+        </div>
+        
+        <div class="actions">
+            <button id="export-csv" class="btn btn-primary">Export CSV</button>
+            <button id="export-txt" class="btn btn-secondary">Export TXT</button>
+            <button id="open-tab" class="btn btn-secondary">Open in Tab</button>
+            <button id="refresh" class="btn btn-secondary">Refresh</button>
+        </div>
+        
+        <div class="links-container">
+            <div id="loading" class="loading">Loading links...</div>
+            <div id="error" class="error" style="display: none;"></div>
+            <div id="links-list" class="links-list"></div>
+        </div>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
