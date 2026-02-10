@@ -13,7 +13,7 @@ A Chrome extension that extracts all URLs from the current webpage and displays 
 - **Clean UI**: Modern, responsive interface
 - **Relative URL conversion**: Automatically converts relative URLs to absolute
 
-## Features
+## Screenshots
 
 <img width="401" height="312" alt="Screenshot 2026-02-10 at 4 17 05 AM" src="https://github.com/user-attachments/assets/5be1f94b-b7ad-4412-b2fe-993b4f01cee8" />
 
