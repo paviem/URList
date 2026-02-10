@@ -17,7 +17,7 @@ A Chrome extension that extracts all URLs from the current webpage and displays 
 
 <img width="390" height="301" alt="Screenshot 2026-02-10 at 4 28 31 AM" src="https://github.com/user-attachments/assets/8f21ef62-4f0f-42bf-b9db-2c80a832cf87" />
 
-<img width="1320" height="784" alt="Screenshot 2026-02-10 at 4 18 18 AM" src="https://github.com/user-attachments/assets/0170f0b6-12c1-4c22-9e8c-0c4df5fd71ce" />
+<img width="1416" height="783" alt="Screenshot 2026-02-10 at 4 31 36 AM" src="https://github.com/user-attachments/assets/8f8b195c-f814-43ee-9e2b-c5373acfa8a8" />
 
 ## Installation
 
